@@ -45,8 +45,9 @@ use command manual vi
 
 ---------------------------------------
 
-again get a shell and find first user accessisable directory files 
-find validate and use gdb prepare a exploit 
+boom !!! 
+
+it also contains a linux bof so i will upload it in my blog 
 
 -----
 
